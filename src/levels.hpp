@@ -13,15 +13,15 @@ struct WorldLevel {
 
 inline std::vector<WorldLevel> getWorldLevels(float width, float height) {
     return {
-        {123562726, width * 0.25f, height * 0.80f - 60.f,  1, "jarvisdevil", 30483751, 257687092},
-        {123673148, width * 0.25f, height * 0.65f - 60.f,  2, "jarvisdevil", 30483751, 257687092},
-        {123590608, width * 0.35f, height * 0.55f - 60.f,  3, "BloxinBlocks", 26423130, 236877807},
-        {123699729, width * 0.45f, height * 0.50f - 60.f,  4, "Junotrion", 22572488, 133524459},
-        {123672485, width * 0.55f, height * 0.52f - 60.f,  5, "SpaecUK", 34716882, 302615873},
-        {111864144, width * 0.65f, height * 0.60f - 60.f,  6, "Junotrion", 22572488, 133524459},
-        {113272411, width * 0.72f, height * 0.70f - 60.f,  7, "rinad2023", 24638848, 219913508},
-        {113716144, width * 0.65f, height * 0.80f - 60.f,  8, "Junotrion", 22572488, 133524459},
-        {94122818,  width * 0.57f, height * 0.70f - 40.f,  9, "TechStudent10", 20284359, 179839933},
-        {123702338, width / 2, height / 2, 10, "jarvisdevil", 30483751, 257687092}
+        {3155, width * 0.25f, height * 0.80f - 60.f,  1, "vaax", 318, 438},
+        {130, width * 0.25f, height * 0.65f - 60.f,  2, "cody", 36, 136},
+        {1078, width * 0.35f, height * 0.55f - 60.f,  3, "vaax", 318, 438},
+        {1017, width * 0.45f, height * 0.50f - 60.f,  4, "vaax", 318, 438},
+        {925, width * 0.55f, height * 0.52f - 60.f,  5, "zc22799gmd", 353, 465},
+        {3040, width * 0.65f, height * 0.60f - 60.f,  6, "skypulse", 1356, 1476},
+        {590, width * 0.72f, height * 0.70f - 60.f,  7, "Masckmaster OG", 1, 1},
+        {33, width * 0.65f, height * 0.80f - 60.f,  8, "AlexEEZ", 3, 3},
+        {1725,  width * 0.57f, height * 0.70f - 40.f,  9, "Cows664", 684, 729},
+        {1035, width / 2, height / 2, 10, "vaax", 318, 438}
     };
 }

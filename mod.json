@@ -6,11 +6,11 @@
 		"mac": "2.2074",
 		"ios": "2.2074"
 	},
-	"id": "jarvisdevil.the_map",
+	"id": "jarvisdevil.the_dindemap",
 	"name": "The Map",
 	"version": "v1.0.0",
 	"developer": "jarvisdevil",
-	"description": "Adds my version of The Map in Geometry Dash.",
+	"description": "Adds my version of The Map in Geometry Dash. For DindeGDPS",
 	"dependencies": {
 		"geode.node-ids": {
 			"version": ">=1.21.1",
