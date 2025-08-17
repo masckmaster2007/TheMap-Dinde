@@ -4,7 +4,6 @@ using namespace geode::prelude;
 #include <Geode/cocos/CCDirector.h>
 #include <Geode/binding/GameLevelManager.hpp>
 #include <Geode/binding/LevelInfoLayer.hpp>
-#include <Geode/binding/FMODAudioEngine.hpp>
 #include <Geode/modify/CreatorLayer.hpp>
 #include <Geode/modify/LevelInfoLayer.hpp>
 #include <Geode/utils/web.hpp>
@@ -94,8 +93,6 @@ public:
         this->refreshLvls(0);
         this->schedule(schedule_selector(WorldsLayer::refreshLvls), 1.0f);
 
-        FMODAudioEngine::sharedEngine()->playMusic("TinyGroove.mp3"_spr, true, 1.0f, 8932);
-
         return true;
     }
 
@@ -143,7 +140,7 @@ public:
     }
 
     void onDiscord(CCObject*) {
-        web::openLinkInBrowser("https://dsc.gg/devlin");
+        web::openLinkInBrowser("https://dsc.gg/dinde");
     }
 
     void onInfo(CCObject*) {
