@@ -227,7 +227,7 @@ class $modify(TMCreatorLayer, CreatorLayer) {
             }
 
             auto worlds = CCSprite::create("worlds.png"_spr);
-            worlds->setScale(0.8f);
+            worlds->setScale(0.85f);
             auto worldsBtn = CCMenuItemSpriteExtra::create(worlds, nullptr, this, menu_selector(TMCreatorLayer::onAdventureMap));
             worldsBtn->setID("worlds-button");
             worldsBtn->setPosition(mapBtn->getPositionX() + 2.f, mapBtn->getPositionY() - 2.f);
