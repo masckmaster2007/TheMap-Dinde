@@ -26,10 +26,7 @@
 		"sprites": [
 			"resources/backgrounds/*.png",
 			"resources/images/*.png"
-		],
-		"files": [
-            "resources/music/*.mp3"
-        ]
+		]
     },
 	"tags": [
 		"content",
