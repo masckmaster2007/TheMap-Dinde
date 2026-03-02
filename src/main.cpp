@@ -206,7 +206,7 @@ public:
             }
         }
         GameLevelManager::get()->m_levelDownloadDelegate = &s_delegate;
-        GameLevelManager::get()->downloadLevel(id, false);
+        GameLevelManager::get()->downloadLevel(id, false, 0);
     }
 
     static cocos2d::CCScene* scene() {
@@ -246,5 +246,6 @@ class $modify(TMLevelInfoLayer, LevelInfoLayer) {
         if (this->getUserObject("is-world-level"_spr)) CCDirector::get()->popSceneWithTransition(0.5f, PopTransition::kPopTransitionFade);
         else LevelInfoLayer::onBack(sender);
     }
+
 
 };
